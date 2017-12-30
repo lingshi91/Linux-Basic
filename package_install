@@ -1,1 +1,12 @@
+Linux下软件安装方式
 
+通常在Windows下安装软件，Windows软件安装程序以 .exe 结尾，双击安装程序在界面安装。
+和windows安装软件方式不同，Linux安装程序以 .rpm 结尾。常见的安装方式有
+
+yum安装：
+前提条件：配置yum 源
+以CentOS6 为例：
+切换目录：cd /etc/yum.repos.d/
+编辑配置文件：
+rpm安装：
+lspci所在包为pciutils
